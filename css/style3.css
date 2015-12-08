@@ -1,0 +1,148 @@
+/*header*/
+.basliq{
+	height: 36px;
+	margin: 0 auto;
+	background: #f2f2f2;
+	overflow: hidden;
+}
+.basliqmenu{
+	color: gray;
+	line-height: 30px;
+}
+
+.sec{
+	background: url("../images/icons-sprite.png") no-repeat;
+	background-position: 0px 8px;
+    float: left;
+    height: 36px;
+    line-height: 30px;
+    font-size: 12px;
+}
+.num{
+	background: url("../images/icons-sprite.png") no-repeat;
+	background-position: 0px -19px;
+    float: left;
+    color: gold;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+    height: 36px;
+
+}
+.reg{
+	margin-top: 0;
+	height: 36px;
+	line-height: 30px;
+
+}
+.reg a{
+	padding: 22px;
+	color: black;
+	height: 36px;
+	background: #e6e6e6;
+	text-decoration: none;
+}
+
+
+.login:hover,.reg a:hover, .regis:hover, .regis a:hover{
+	height: 38px;
+	background: gold;
+	color: white;
+	transition: background 1.2s ease;
+	text-decoration: none;
+}
+
+
+
+/*header*/
+
+/*logo*/
+.logom{
+	background: pink;
+	height: 96px;
+}
+.logosekil{
+	margin-top: 17px;
+	height: 63px;
+	background: white;
+}
+.logoaxtar{
+	margin-top: 25px;
+}
+.logobtn{
+	margin-top: 25px;
+	float: left;
+}
+.sebet{
+	margin-top: 30px;
+	margin-left: 15px;
+	height: 25px;
+	background: white;
+}
+/*logo*/
+
+/*nav*/
+.navb{
+	background: gold;
+	height: 40px;
+}
+
+/*nav*/
+
+.kategoriya{
+	margin-top: 10px;
+	float: left;
+}
+.menular ul li{
+	display: block;
+	float: left;
+	padding-left: 25px;
+}
+.xeber{
+	height: 800px;
+	background: red;
+}
+.footer{
+
+}
+.footeric{
+	margin-top:15px;
+	height: 380px;
+	background: blue;
+	
+}
+
+/*sol teref*/
+.submenu{
+	display: none;
+}
+.category-options:hover .submenu{
+	display: block;
+}
+.category-options:hover .submenu li{
+	border: 0px;
+}
+.category-options a{
+	text-decoration: none;
+}
+.category{
+	background-color: black;             /* TEMA 3 */
+	color:red;
+	margin-top:4px;
+}
+.category li a{
+	color:black;                         /* TEMA 3 */
+}
+.category li{
+	border:1px solid black;              /* TEMA 3 */
+	box-sizing:border-box;
+}
+.jumbotron{
+	color:black;                         /* TEMA 3 */
+}
+.badge{
+	background-color: black;             /* TEMA 3 */
+}
+.category-options:hover .glyphicon{
+	transform:rotate(90deg);
+}

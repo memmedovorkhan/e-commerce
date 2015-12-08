@@ -1,0 +1,308 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,
+address,big,cite,code,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,
+center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,
+td{margin:0;padding:0;border:0;outline:0;list-style:none;list-style-type:none;text-decoration:none;font-family:'Open Sans', sans-serif}
+.temizlik{
+	clear: both;
+}
+
+/*header*/
+.main{
+	padding: 0px;
+}
+.basliq{
+	height: auto;
+
+	background: #f2f2f2;
+	overflow: hidden;
+	color: gray;
+	line-height: 35px;
+}
+.sec{
+	background: url("../images/icons-sprite.png") no-repeat;
+	background-position: 0px 10px;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+    color: gray;
+}
+.num{
+	background: url("../images/icons-sprite.png") no-repeat;
+	background-position: 0px -17px;
+    float: left;
+    color: #f9c543;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 36px;
+    height: 36px;
+}
+.sec p,.num p{
+	padding-left: 5px;
+}
+.reg{
+	margin-top: 0;
+	padding: 0px 10px 0px 40px;
+	height: 36px;
+	line-height: 36px;
+}
+.reg a{
+	float: left;
+	color: gray;
+	background: #e6e6e6;
+	text-decoration: none;
+}
+.reg a:hover{
+
+	height: 36px;
+	background: gold;
+	color: white;
+	transition: background 1.2s ease;
+	text-decoration: none;
+}
+
+.bosluq{
+	height: 15px;
+}
+
+
+
+
+
+.logo{
+	padding: 0px;
+	height: 97px;
+}
+.logom{
+	height: 96px;
+	padding: 0px;
+}
+.logosekil{
+	padding: 0px;
+	height: 63px;
+	float: left;
+}
+.logoaxtar{
+	margin-top: 12px;
+	float: left;
+}
+.logoaxtar input[type=text]{
+	padding-left: 15px;
+	float: left;
+	margin-left: 15px;
+	height: 40px;
+	background: #f2f2f2;
+	color: gray;
+	border: none;
+}
+.logoaxtar button{
+	margin-top: 10px;
+	background: #f2f2f2;
+	background: url("../images/search.png");
+	float: left;
+	width: 20px;
+	height: 30px;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+}
+.srcbtn{
+	background: #f2f2f2;
+}
+.sebet{
+	margin-top: 12px;
+	background: #f9c543;
+	height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav{
+	height: 40px;
+	background: lightblue;
+}
+.sol{
+	background: red;
+	height: 1900px;
+}
+.orta{
+	background: green;
+	height: 1900px;
+	padding: 0px;
+}
+.slider{
+	height: 300px;
+	background:gray;
+}
+
+/* Sag Hisse - start*/
+.sag{
+	padding: 0px;
+	height: 1900px;
+}
+.endirim{
+	height:40px;
+	background-color:#f1f1f1;;
+	text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #666;
+    line-height: 40px;
+}
+
+.right-slider{
+	background: #fff;
+    border: none;
+    padding: 10px;
+    height: 260px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.add{
+	height:300px;
+}
+.flash{
+	height: 155px;
+	background: purple;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+/*.rslides .slider-mehsul{
+	margin-left:60px;
+}
+.slider-mehsul p{
+	padding-left:100px;
+}*/
+/*Sag Hisee - end*/
+
+
+
+.footer{
+	height: 420px;
+	background: yellow;
+}
+
+
+/* Mehsul sehifesi*/
+
+.product-pic{
+	height:390px;
+}
+#zoom_01{
+	width:100% !important;
+}
+.qiymetlendirme{
+	height: 35px;
+	background: #f7f7f7;
+	font-size: 10px;
+    /*color: #9c9c9c;*/
+    text-transform: uppercase;
+   /* background: url(/skins/digitera/customer/images/no-rate-stars.png) no-repeat left 0;*/
+    line-height: 35px;
+
+}
+.qiymetlendirme a{
+	text-decoration: none;
+	color:#9c9c9c;
+	transition:all 0.5s ease-in-out;
+}
+.qiymetlendirme a:hover{
+	color:black;
+}
+.star{
+	height: 10px;
+	width:10px;	
+}
+.star img{
+	height: 15px;
+	width: 15px;
+}
+.qiymet{
+	
+	box-shadow: 1px 1px 1px 1px #f6f6f6;
+	height:200px;
+	box-sizing:border-box;
+	padding:0px;
+}
+.qiymet-esas{
+	height:90%;
+}
+.product-news{
+	height:10%;
+	background: #f6f6f6;
+}
+.chatdirilma{
+	height:50px;
+	background: #fbd67b url("../images/bus.png") no-repeat;
+	color: #fff;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 14px;
+    float: left;
+    padding: 10px 10px 10px 70px;
+    height: 50px;
+    box-sizing: border-box;
+}
+.product-information{
+	padding: 0px;
+}
+.teminat{
+	background: url("../images/safe.png") no-repeat 10px 8px;
+    height: 64px;
+    line-height: 64px;
+    border: 1px solid #f1f1f1;
+    font-size: 16px;
+    color: #666;
+    padding: 0 10px 0 70px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.teminat-sayt{
+    padding: 18px;
+    font-size: 12px;
+    color: #767676;
+    text-align: justify;
+    line-height: 16px;
+    border: 1px solid #f1f1f1;
+    border-top:0px;
+}
