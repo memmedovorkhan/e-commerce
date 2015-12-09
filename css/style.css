@@ -267,6 +267,17 @@ td{margin:0;padding:0;border:0;outline:0;list-style:none;list-style-type:none;te
 .qiymet-esas{
 	height:90%;
 }
+.qiymet-esas a{
+	background: url("../images/arrow.png") no-repeat left center;
+    padding: 0 0 0 10px;
+    
+    display: inline-block;
+    color: #484848;
+    box-sizing: border-box;
+}
+.qiymet-esas a:hover{
+	text-decoration: underline;
+}
 .product-news{
 	height:10%;
 	background: #f6f6f6;
@@ -282,6 +293,29 @@ td{margin:0;padding:0;border:0;outline:0;list-style:none;list-style-type:none;te
     padding: 10px 10px 10px 70px;
     height: 50px;
     box-sizing: border-box;
+}
+.zemanet{
+	background: #e5ca88 url("../images/bus.png") no-repeat left bottom;
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 14px;
+    width: 49%;
+    float: right;
+    padding: 10px 10px 10px 60px;
+    height: 50px;
+    box-sizing: border-box;
+}
+.zemanet span{
+	display: block;
+}
+.zemanet a{
+	text-decoration: underline;
+    color: #fff !important;
+    font-size: 11px;
+}
+.zemanet a:hover{
+	text-decoration: none;
 }
 .product-information{
 	padding: 0px;
@@ -306,3 +340,127 @@ td{margin:0;padding:0;border:0;outline:0;list-style:none;list-style-type:none;te
     border: 1px solid #f1f1f1;
     border-top:0px;
 }
+.button-actions{
+	background:#f7f7f7 url("../images/button-actions.png") no-repeat 10px 10px;
+    display: block;
+    height: 30px;
+    font-size: 10px;
+    line-height: 30px !important;
+    padding: 0 0 0 30px;
+    color: #9c9c9c;
+    text-transform: uppercase; 
+    transition:all 0.3s ease-in-out;
+    margin-top:10px;
+}
+.button-actions:hover{
+	background-color:#fbd67b;
+	cursor:pointer;
+}
+.sent-friend{
+	padding:0px;
+}
+.add-wish{
+	padding-left:6px;
+	padding-right:0px;
+}
+.compare{
+	padding-left:6px;
+	padding-right:0px;
+}
+.price-dec{
+	display: block;
+}
+.price-value{
+	font-size: 32px;
+    color: #f64c29;
+    font-weight: normal;
+    display: block;
+}
+
+
+
+/* PopUp Slider */
+
+.backdiv{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+    display:none;
+    z-index:1;
+}
+.popupdiv{
+    position: absolute;
+    left:30%;
+    top:15%;
+    width:auto;
+    height:auto;
+    display: none;
+    z-index:1;
+}
+.pophead{
+    width: 100%;
+    height:20px;
+    background-color: darkgrey;
+    position: absolute;
+}
+.prevbtn{
+    background: url("../images/controls.png");
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right:40px;
+    top:0px;
+}
+.nextbtn{
+    background: url("../images/controls.png");
+    background-position: 100px 0px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right:20px;
+    top:0px; 
+}
+.closebtn{
+    background: url("../images/controls.png");
+    background-position: 75px 0px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right:0px;
+    top:0px;
+}
+.zoom_01,.thumb-img{
+    border:1px solid gray;
+    box-sizing:border-box;
+}
+.thumb-img{
+    width:90px;
+    height:90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PopUp Slider */

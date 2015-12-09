@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Mehsul</title>
@@ -8,9 +8,25 @@
 	<script src='js/jquery.elevatezoom.js'></script>
 </head>
 <body>
+        <div class="backdiv"></div>
+        <div class="popupdiv">
+            <div class="pophead">
+                <span>Apple Macbook Pro MGX72LL/A/</span>
+                <div class="prevbtn"></div>
+                <div class="nextbtn"></div>
+                <div class="closebtn"></div>
+            </div>
+             <div class="pop-content">
+                 <img src="images/small/image1.png" class="popimg">
+            </div>
+        </div>
 	<div class="container">
 		<div class="col-md-4 product-pic">
-			<img id="zoom_01" src='images/small/image1.png' data-zoom-image="images/large/image1.jpg"/>
+			<img id="zoom_01" src='images/small/image1.png' data-zoom-image="images/large/image1.jpg" class="zoom_01"/>
+            <div class="col-md-12" style="height:10px"></div>
+            <img class="thumb-img" src="images/small/image1.png">
+            <img class="thumb-img" src="images/small/image2.png">
+            <img class="thumb-img" src="images/small/image3.png">
 		</div>			
 		<div class="col-md-5 product-information">
 			<h3>Montale - Roses Musk - L</h3>
@@ -55,12 +71,54 @@
 
 
 <script>
-    $('#zoom_01').elevateZoom({
+$('#zoom_01').elevateZoom({
     zoomType: "inner",
-cursor: "move",
-zoomWindowFadeIn: 500,
-zoomWindowFadeOut: 750
-   }); 
-</script>	
+    cursor: "move",
+    zoomWindowFadeIn: 500,
+    zoomWindowFadeOut: 750
+}); 
+    
+    
+    
+    
+    
+$('#zoom_01').click(function(){
+    $('.popupdiv').show();
+    $('.backdiv').show();
+});   
+    
+    
+$('.prevbtn').click(function(){
+    $(".popimg").attr("src", "images/small/image2.png");
+}); 
+    
+    
+$('.nextbtn').click(function(){
+    $(".popimg").attr("src","images/small/image3.png");
+});    
+    
+$('.closebtn').click(function(){
+    $('.popupdiv').hide();
+    $(".backdiv").hide();
+});   
+    
+$('.backdiv').click(function(){
+    $('.popupdiv').hide();
+    $(".backdiv").hide();
+});
+    
+$(document).keyup(function(e) {
+     if (e.keyCode == 27) { 
+    $('.popupdiv').hide();
+    $(".backdiv").hide(); 
+    }
+});   
+    
+$(".thumb-img").click(function(){
+    $(".zoom_01").attr("src",this.src);
+}); 
+    
+    
+</script>
 </body>
 </html>
