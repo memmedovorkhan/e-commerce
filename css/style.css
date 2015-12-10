@@ -191,6 +191,7 @@ a:hover{text-decoration: none;}
 	height: auto;
 }
 .endirim{
+    background: #f1f1f1;
 	height:40px;
 	text-align: center;
     font-size: 15px;
