@@ -1,0 +1,3 @@
+https://developers.google.com/speed/pagespeed/module/?csw=1#htaccess
+
+https://developers.google.com/speed/pagespeed/module/domains#ModPagespeedLoadFromFile
